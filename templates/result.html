@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>路线结果</title>
+</head>
+<body>
+    <h2>📍 路线结果</h2>
+    <p><b>起点：</b> {{ pointA }}</p>
+    <p><b>终点：</b> {{ pointB }}</p>
+    <p><b>总距离：</b> {{ distance_km }} 公里</p>
+    <div>{{ map_html | safe }}</div>
+    <br>
+    <a href="/">返回首页</a>
+</body>
+</html>
